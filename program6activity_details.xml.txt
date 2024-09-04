@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".details"
+    android:background="#FFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/sp"
+        android:text="STUDENT PORTAL"
+        android:textColor="#FFF"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:background="#800080"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/reg"
+        android:layout_below="@id/sp"
+        android:text="You have successfuly registered...!"
+        android:textColor="#880808"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:layout_below="@id/reg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:text="Name : "
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/name"
+            android:text="Nikhila "
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll2"
+        android:layout_below="@id/ll1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:text="Phone : "
+            android:textColor="@color/black"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/phone"
+            android:text="Phone "
+            android:textColor="@color/black"
+            android:layout_marginBottom="30dp"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll3"
+        android:layout_below="@id/ll2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:text="Gender : "
+            android:textColor="@color/black"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/gender"
+            android:text="Gender "
+            android:textColor="@color/black"
+            android:layout_marginBottom="30dp"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll4"
+        android:layout_below="@id/ll3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:text="Interest : "
+            android:textColor="@color/black"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/interest"
+            android:text=""
+            android:textColor="@color/black"
+            android:layout_marginBottom="30dp"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            />
+    </LinearLayout>
+</RelativeLayout>

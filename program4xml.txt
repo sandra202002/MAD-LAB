@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFF">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Percentage"
+            android:id="@+id/p"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/percentage"
+            android:hint="Enter Percentage"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:minLines="5"
+            android:maxLength="6"
+            android:inputType="numberDecimal"
+            />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chck"
+        android:text="Terms and Conditions"
+        android:checked="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Dark"
+        android:textOn="Light"
+        android:id="@+id/tgle"
+        android:textColor="#fff"
+        android:textSize="20sp"/>
+
+</LinearLayout>
